@@ -1,0 +1,2 @@
+timestamp,app_name,action,status,response_time_ms,environment
+2025-11-29T13:48:50.676958,sample-frontend,deploy,success,504.9428939819336,dev

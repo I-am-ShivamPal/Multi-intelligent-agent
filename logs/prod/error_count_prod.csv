@@ -1,0 +1,14 @@
+timestamp,service_name,error_type,error_count,error_rate_percent,severity,environment
+2025-11-27T11:05:07.223042,redis_queue,authentication_error,5,15.15,low,prod
+2025-11-27T11:05:07.262329,auto_heal_agent,authentication_error,3,16.67,medium,prod
+2025-11-27T11:05:07.359707,issue_detector,validation_error,1,2.22,low,prod
+2025-11-27T11:05:07.511859,deploy_agent_worker_1,connection_timeout,5,11.9,low,prod
+2025-11-27T11:05:07.581674,deploy_agent_worker_1,connection_timeout,5,11.9,medium,prod
+2025-11-27T11:05:07.589084,redis_queue,validation_error,5,18.52,high,prod
+2025-11-27T11:05:07.610668,issue_detector,connection_timeout,4,8.89,medium,prod
+2025-11-27T11:05:07.674175,load_balancer,high_latency_warning,1,1.0,medium,prod
+2025-11-27T11:05:07.675174,load_balancer,high_latency_warning,1,1.0,medium,prod
+2025-11-27T11:05:07.676174,load_balancer,high_latency_warning,1,1.0,medium,prod
+2025-11-27T11:05:07.676174,load_balancer,high_latency_warning,1,1.0,medium,prod
+2025-11-27T11:05:07.677174,load_balancer,high_latency_warning,1,1.0,medium,prod
+2025-11-27T11:07:07.145221,test_service,timeout,2,4.0,medium,prod

@@ -1,0 +1,2 @@
+timestamp,queue_name,depth,enqueue_rate,dequeue_rate,avg_wait_time_ms,environment
+2026-01-23T15:49:09.009215,scale_prod_workers,3,0,0,0,prod

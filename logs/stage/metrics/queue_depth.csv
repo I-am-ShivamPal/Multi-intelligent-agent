@@ -1,0 +1,17 @@
+timestamp,queue_name,depth,enqueue_rate,dequeue_rate,avg_wait_time_ms,environment
+2026-01-23T15:48:31.633122,scale_stage_workers,3,0,0,0,stage
+2026-01-23T15:50:56.871556,scale_stage_workers,3,0,0,0,stage
+2026-01-23T15:51:30.357437,scale_stage_workers,3,0,0,0,stage
+2026-01-24T15:52:29.622664,scale_stage_workers,3,0,0,0,stage
+2026-01-24T15:58:49.605032,scale_stage_workers,3,0,0,0,stage
+2026-01-24T15:59:29.278215,scale_stage_workers,3,0,0,0,stage
+2026-01-24T15:59:58.554654,scale_stage_workers,3,0,0,0,stage
+2026-01-24T16:02:21.491376,scale_stage_workers,3,0,0,0,stage
+2026-01-24T16:07:05.827383,scale_stage_workers,3,0,0,0,stage
+2026-01-24T16:07:54.426132,scale_stage_workers,3,0,0,0,stage
+2026-01-24T16:12:14.986527,scale_stage_workers,3,0,0,0,stage
+2026-01-31T15:35:36.087877,scale_stage_workers,3,0,0,0,stage
+2026-01-31T15:36:21.705967,scale_stage_workers,3,0,0,0,stage
+2026-01-31T16:10:12.774580,scale_stage_workers,3,0,0,0,stage
+2026-02-01T14:56:29.611628,scale_stage_workers,3,0,0,0,stage
+2026-02-01T16:33:59.708330,scale_stage_workers,3,0,0,0,stage

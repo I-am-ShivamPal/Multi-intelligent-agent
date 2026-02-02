@@ -1,0 +1,38 @@
+Category,Component,Status
+Core Files,main.py,EXISTS
+Core Files,config.py,EXISTS
+Core Files,requirements.txt,EXISTS
+Core Files,docker-compose.yml,EXISTS
+Core Files,Dockerfile,EXISTS
+Agent Modules,agents/deploy_agent.py,EXISTS
+Agent Modules,agents/issue_detector.py,EXISTS
+Agent Modules,agents/uptime_monitor.py,EXISTS
+Agent Modules,agents/auto_heal_agent.py,EXISTS
+Agent Modules,agents/rl_optimizer.py,EXISTS
+Core Infrastructure,core/event_bus.py,EXISTS
+Core Infrastructure,core/sovereign_bus.py,EXISTS
+Core Infrastructure,core/base_agent.py,EXISTS
+Core Infrastructure,core/logger.py,EXISTS
+Dashboard,dashboard/dashboard.py,EXISTS
+Dashboard,dashboard/qa_metrics_tab.py,EXISTS
+Data Logs,logs/deployment_log.csv,✅ (151 entries)
+Data Logs,logs/healing_log.csv,✅ (10 entries)
+Data Logs,logs/issue_log.csv,✅ (5 entries)
+Data Logs,logs/performance_log.csv,✅ (85 entries)
+Data Logs,logs/infra_health.csv,✅ (144 entries)
+Dependencies,streamlit,INSTALLED
+Dependencies,pandas,INSTALLED
+Dependencies,plotly,INSTALLED
+Dependencies,requests,INSTALLED
+Dependencies,numpy,INSTALLED
+Dependencies,scikit-learn,MISSING
+Dependencies,redis,INSTALLED
+Dependencies,psutil,INSTALLED
+Imports,Event Bus,SUCCESS
+Imports,Sovereign Bus,SUCCESS
+Imports,Base Agent,SUCCESS
+Imports,Dashboard,SUCCESS
+Imports,QA Metrics,SUCCESS
+Integration,Event Bus + Data Loading,SUCCESS
+Validation,logs/validation_results.csv,EXISTS
+Validation,final_validation_report.md,EXISTS

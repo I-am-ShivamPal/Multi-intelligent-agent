@@ -1,0 +1,26 @@
+timestamp,event_type,channel,latency_ms,message_size
+2025-11-28 13:34:50,publish,system.up,0.00,114
+2026-01-28 20:45:13,publish,deploy,0.06,86
+2026-01-28 20:45:14,publish,runtime_event,0.03,163
+2026-01-28 20:45:17,publish,deploy,0.03,84
+2026-01-28 20:45:18,publish,runtime_event,0.03,166
+2026-01-28 20:45:21,publish,deploy,0.02,81
+2026-01-28 20:45:22,publish,runtime_event,0.04,166
+2026-01-28 20:49:05,publish,deploy,0.05,86
+2026-01-28 20:49:06,publish,runtime_event,0.04,163
+2026-01-28 20:49:09,publish,deploy,0.03,84
+2026-01-28 20:49:10,publish,runtime_event,0.03,166
+2026-01-28 20:49:13,publish,deploy,0.04,81
+2026-01-28 20:49:14,publish,runtime_event,0.02,166
+2026-01-28 20:50:36,publish,deploy,0.04,86
+2026-01-28 20:50:37,publish,runtime_event,0.02,163
+2026-01-28 20:50:40,publish,deploy,0.03,84
+2026-01-28 20:50:41,publish,runtime_event,0.02,166
+2026-01-28 20:50:44,publish,deploy,0.04,81
+2026-01-28 20:50:45,publish,runtime_event,0.05,166
+2026-01-28 21:21:27,publish,deploy,0.04,86
+2026-01-28 21:21:28,publish,runtime_event,0.03,163
+2026-01-28 21:21:31,publish,deploy,0.05,84
+2026-01-28 21:21:32,publish,runtime_event,0.02,166
+2026-01-28 21:21:35,publish,deploy,0.04,81
+2026-01-28 21:21:36,publish,runtime_event,0.04,166

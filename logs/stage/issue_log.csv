@@ -1,0 +1,2 @@
+timestamp,app,env,issue_type,severity,latency
+2025-12-08T10:14:48.569125,demo-api,stage,high_latency,high,8500

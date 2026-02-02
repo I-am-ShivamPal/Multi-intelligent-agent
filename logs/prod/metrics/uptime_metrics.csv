@@ -1,0 +1,2 @@
+timestamp,service_name,status,uptime_seconds,downtime_seconds,availability_percent,environment
+2026-01-23T15:49:10.014925,restart_prod,success,45,0,100.0,prod

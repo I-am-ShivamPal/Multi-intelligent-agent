@@ -1,0 +1,7 @@
+timestamp,total_deployments,successful_deployments,failed_deployments,success_rate_percent,avg_deploy_time_ms,environment
+2026-01-23T15:00:31.465706,1,1,0,100.0,150,prod
+2026-01-23T15:39:52.185304,1,1,0,100.0,150,prod
+2026-01-23T15:42:21.806542,1,1,0,100.0,150,prod
+2026-01-23T15:43:09.858933,1,1,0,100.0,150,prod
+2026-01-23T15:43:51.023040,1,1,0,100.0,150,prod
+2026-01-23T15:49:07.931329,1,1,0,100.0,120,prod

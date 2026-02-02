@@ -1,0 +1,885 @@
+[
+  {
+    "timestamp": "2025-10-29T15:51:16.593055",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15041.041135787964,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:51:16.678662",
+    "event_type": "system.down",
+    "data": {
+      "reason": "High heart rate detected (150)."
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:52:12.111999",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "anomaly_health",
+      "action": "retry_deployment",
+      "reward": -1,
+      "new_q": -0.1
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:52:12.204512",
+    "event_type": "heal.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15024.35851097107,
+      "action_type": "heal_retry"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:53:41.804298",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:53:56.910508",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15030.007362365723,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:10.920689",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:26.007148",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15022.507905960083,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:26.079901",
+    "event_type": "heal.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 200,
+      "action_type": "heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:26.083901",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Recovery successful via heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:44.946581",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15015.808820724487,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:45.666383",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:45.773272",
+    "event_type": "system.down",
+    "data": {
+      "reason": "Last deployment attempt failed."
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:54:45.781736",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "q_value": 0.785329022
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:55:02.035290",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:55:22.225911",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 20000,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:55:35.370742",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:55:36.918520",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 2000,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:55:37.028687",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "anomaly_health",
+      "action": "restore_previous_version",
+      "q_value": 0.0
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:56:06.836197",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:56:21.927088",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15044.642925262451,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:56:37.203966",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "deployment_failure",
+      "action": "retry_deployment",
+      "reward": 0,
+      "new_q": 0.0
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:56:37.313832",
+    "event_type": "heal.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15030.160188674927,
+      "action_type": "heal_retry"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:56:40.099680",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:56:55.228141",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15028.648614883423,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:10.428953",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "anomaly_health",
+      "action": "restore_previous_version",
+      "reward": 0,
+      "new_q": 0.0
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:10.554921",
+    "event_type": "heal.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15021.848917007446,
+      "action_type": "heal_restore"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:13.231304",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:33.279560",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 20000,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:48.420293",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "deployment_failure",
+      "action": "retry_deployment",
+      "reward": 0,
+      "new_q": 0.0
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:48.504401",
+    "event_type": "heal.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15021.880149841309,
+      "action_type": "heal_retry"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:50.887250",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:57:52.448715",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 2000,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:07.581256",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "anomaly_health",
+      "action": "restore_previous_version",
+      "reward": 0,
+      "new_q": 0.0
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:07.669150",
+    "event_type": "heal.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15042.994022369385,
+      "action_type": "heal_restore"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:17.235299",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:32.402005",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15047.421216964722,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:32.513405",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "q_value": 0.785329022
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:32.548029",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 0.9067961198
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:32.640035",
+    "event_type": "heal.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 200,
+      "action_type": "heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:32.679686",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Recovery successful via heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:37.605122",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:52.662470",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15029.019594192505,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:52.789930",
+    "event_type": "system.down",
+    "data": {
+      "reason": "High heart rate detected (150)."
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:52.795435",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "q_value": 1.0434062
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:52.808732",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 1.13906558
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:52.878100",
+    "event_type": "heal.success",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 200,
+      "action_type": "heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:58:52.884409",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Recovery successful via heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.656983",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 20000,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.790235",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "latency_issue",
+      "reason": "High latency detected: 20000.00 ms.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.875760",
+    "event_type": "system.down",
+    "data": {
+      "reason": "High latency detected: 20000.00 ms."
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.881768",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "latency_issue",
+      "action": "adjust_thresholds",
+      "q_value": 0.38
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.892274",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "latency_issue",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 0.542
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.958431",
+    "event_type": "heal.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 200,
+      "action_type": "heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:14.965938",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Recovery successful via heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:17.140626",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:18.745625",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 2000,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:18.853207",
+    "event_type": "system.down",
+    "data": {
+      "reason": "High heart rate detected (150)."
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:18.859206",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "q_value": 1.13906558
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:18.869205",
+    "event_type": "rl.learned",
+    "data": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 1.225159022
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:18.937544",
+    "event_type": "heal.success",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 200,
+      "action_type": "heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T15:59:18.943547",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Recovery successful via heal_adjust"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:03:10.597854",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15026.128768920898,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:03:10.670658",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:03:10.725712",
+    "event_type": "system.down",
+    "data": {
+      "reason": "Last deployment attempt failed."
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:03:10.729665",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "q_value": 0.9067961198
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:03:57.544607",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:04:12.613142",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15028.507947921753,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:04:12.686273",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "q_value": 1.225159022
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:04:59.383859",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:05:14.452614",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15030.263900756836,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:05:14.520266",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "q_value": 0.9067961198
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:05:55.975737",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:06:11.020487",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15025.958061218262,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:06:11.150078",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "q_value": 1.225159022
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:06:56.598508",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:07:11.648616",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15023.04482460022,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:07:11.786077",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "q_value": 0.9067961198
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:16:45.416227",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:17:00.648684",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15201.730489730835,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-10-29T16:17:00.835812",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "retry_deployment",
+      "q_value": 0.0
+    }
+  },
+  {
+    "timestamp": "2025-11-05T10:19:03.291041",
+    "event_type": "issue.detected",
+    "data": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    }
+  },
+  {
+    "timestamp": "2025-11-05T10:19:18.782761",
+    "event_type": "deploy.failure",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15434.621572494507,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-11-05T10:19:18.908415",
+    "event_type": "rl.action_chosen",
+    "data": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "q_value": 0.9067961198
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:20:23.475377",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 16723.5267162323,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:20:25.360737",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Successful deployment"
+    }
+  },
+  {
+    "timestamp": "2025-11-12T12:26:49.530379",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "test.csv",
+      "response_time": 1500
+    }
+  },
+  {
+    "timestamp": "2025-11-12T12:26:49.955666",
+    "event_type": "external.alert",
+    "data": {
+      "message": "Test from MCP",
+      "mcp_context_id": "ctx_test_001"
+    }
+  },
+  {
+    "timestamp": "2025-11-21T10:01:16.817015",
+    "event_type": "system_failure",
+    "data": {
+      "type": "cpu_spike",
+      "severity": "high",
+      "cpu_usage": 100.0,
+      "timestamp": 1763699476.817016
+    }
+  },
+  {
+    "timestamp": "2025-11-21T10:01:37.821968",
+    "event_type": "network_failure",
+    "data": {
+      "type": "connectivity_loss",
+      "severity": "critical",
+      "duration": 15,
+      "timestamp": 1763699497.8219688
+    }
+  },
+  {
+    "timestamp": "2025-11-21T10:01:52.546488",
+    "event_type": "agent_failure",
+    "data": {
+      "type": "process_crash",
+      "agent_id": "mock_agent",
+      "pid": 10212,
+      "severity": "high",
+      "timestamp": 1763699512.5464888
+    }
+  },
+  {
+    "timestamp": "2025-11-21T10:02:05.154243",
+    "event_type": "deployment_failure",
+    "data": {
+      "type": "deployment_timeout",
+      "severity": "medium",
+      "deployment_id": "test_deploy_001",
+      "timestamp": 1763699525.154243
+    }
+  },
+  {
+    "timestamp": "2025-11-21T11:00:14.651476",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15059.28349494934,
+      "action_type": "deploy"
+    }
+  },
+  {
+    "timestamp": "2025-11-27T10:10:56.775954",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Initial status check"
+    }
+  },
+  {
+    "timestamp": "2025-11-27T10:11:12.646304",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15645.023584365845,
+      "action_type": "deploy",
+      "environment": "dev"
+    }
+  },
+  {
+    "timestamp": "2025-11-27T10:11:56.728827",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Initial status check"
+    }
+  },
+  {
+    "timestamp": "2025-11-27T10:12:12.626498",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15143.441677093506,
+      "action_type": "deploy",
+      "environment": "stage"
+    }
+  },
+  {
+    "timestamp": "2025-11-27T10:12:53.163859",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Initial status check"
+    }
+  },
+  {
+    "timestamp": "2025-11-27T10:13:08.380619",
+    "event_type": "deploy.success",
+    "data": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15038.811206817627,
+      "action_type": "deploy",
+      "environment": "prod"
+    }
+  },
+  {
+    "timestamp": "2025-11-28T13:34:50.669572",
+    "event_type": "system.up",
+    "data": {
+      "reason": "Initial status check"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+timestamp,service_name,error_type,error_count,error_rate_percent,severity,environment
+2026-01-20T14:13:55.306964,crash_dev,success,1,100.0,medium,dev
+2026-01-20T14:13:55.309281,overload_dev,success,1,100.0,medium,dev
+2026-01-20T14:14:22.929951,crash_dev,success,1,100.0,medium,dev
+2026-01-20T14:14:22.931690,overload_dev,success,1,100.0,medium,dev
+2026-01-20T14:17:20.806517,crash_dev,detected,1,100.0,medium,dev
+2026-01-20T14:17:20.809369,overload_dev,detected,1,100.0,medium,dev
+2026-01-20T14:20:34.709551,crash_dev,detected,1,100.0,medium,dev
+2026-01-20T14:20:34.711191,overload_dev,detected,1,100.0,medium,dev
+2026-01-20T14:21:50.097132,crash_dev,detected,1,100.0,medium,dev
+2026-01-20T14:21:50.100959,overload_dev,detected,1,100.0,medium,dev
+2026-01-23T14:50:07.314814,crash_dev,detected,1,100.0,medium,dev
+2026-01-23T14:51:04.295804,overload_dev,detected,1,100.0,medium,dev
+2026-01-23T14:56:49.460803,crash_dev,detected,1,100.0,medium,dev
+2026-01-23T14:56:49.462373,overload_dev,detected,1,100.0,medium,dev

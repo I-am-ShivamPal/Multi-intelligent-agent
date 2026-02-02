@@ -1,0 +1,14 @@
+timestamp,test_name,status,details,elapsed_time
+2025-11-21 10:01:26,CPU Spike Simulation,COMPLETED,10-second CPU spike executed,10.303457
+2025-11-21 10:01:32,CPU Recovery,SUCCESS,CPU normalized to 14.9%,16.33093
+2025-11-21 10:01:43,Network Drop Simulation,COMPLETED,Network timeout simulated,27.101591
+2025-11-21 10:01:47,Network Recovery,SUCCESS,Network connectivity restored,30.995977
+2025-11-21 10:01:57,Agent Crash Simulation,COMPLETED,Agent crashed with code 1,41.329341
+2025-11-21 10:02:00,Agent Recovery,SUCCESS,Agent restarted successfully,43.659292
+2025-11-21 10:02:08,RL Event Reception,FAILED,No RL response detected,51.705523
+2025-11-21 10:02:10,Log Verification,SUCCESS,logs/deployment_log.csv: 152 entries,53.726336
+2025-11-21 10:02:10,Log Verification,SUCCESS,logs/healing_log.csv: 11 entries,53.728339
+2025-11-21 10:02:10,Log Verification,SUCCESS,logs/issue_log.csv: 6 entries,53.729337
+2025-11-21 10:02:10,Log Verification,SUCCESS,logs/performance_log.csv: 86 entries,53.766666
+2025-11-21 10:02:10,Log Verification,SUCCESS,logs/infra_health.csv: 145 entries,53.768665
+2025-11-21 10:02:10,Overall Metrics Logging,SUCCESS,5/5 logs active,53.768665

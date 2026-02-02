@@ -1,0 +1,2 @@
+state,action,q_value
+high_latency,rollback_deployment,0.85

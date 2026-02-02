@@ -1,0 +1,4 @@
+timestamp,app_name,action,status,response_time_ms,environment
+2025-12-02T10:14:28.543614,sample-backend,deploy,success,502.4597644805908,stage
+2025-12-02T10:15:26.357303,sample-backend,deploy,success,506.95085525512695,stage
+2025-12-02T10:16:51.638417,sample-backend,deploy,success,511.88039779663086,stage

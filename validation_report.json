@@ -1,0 +1,44 @@
+{
+  "timestamp": 1764325232.5605361,
+  "overall_score": 28,
+  "max_score": 30,
+  "percentage": 93.33333333333333,
+  "results": {
+    "environment_config": {
+      "score": 3,
+      "max_score": 3
+    },
+    "core_agents": {
+      "score": 5,
+      "max_score": 5
+    },
+    "event_bus": {
+      "score": 3,
+      "max_score": 4
+    },
+    "dashboard": {
+      "score": 3,
+      "max_score": 3
+    },
+    "rl_optimization": {
+      "score": 2,
+      "max_score": 3
+    },
+    "docker": {
+      "score": 3,
+      "max_score": 3
+    },
+    "monitoring": {
+      "score": 4,
+      "max_score": 4
+    },
+    "integration": {
+      "score": 3,
+      "max_score": 3
+    },
+    "data_export": {
+      "score": 2,
+      "max_score": 2
+    }
+  }
+}

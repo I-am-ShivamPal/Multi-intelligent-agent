@@ -1,0 +1,102 @@
+timestamp,event_type,throughput_per_sec,queue_size,total_messages
+2025-11-05T10:28:33.638920,message_published_test_topic,0.26,1,1
+2025-11-05T10:28:33.640933,message_published_test_topic,0.52,2,2
+2025-11-05T10:28:33.642446,message_published_test_topic,0.79,3,3
+2025-11-05T10:28:33.644455,message_published_test_topic,1.05,4,4
+2025-11-05T10:28:33.644455,message_published_test_topic,1.31,5,5
+2025-11-05T10:29:00.070502,message_published_test_topic,0.34,1,1
+2025-11-05T10:29:00.075698,message_published_test_topic,0.68,2,2
+2025-11-05T10:29:00.075698,message_published_test_topic,1.02,3,3
+2025-11-05T10:29:00.077710,message_published_test_topic,1.37,4,4
+2025-11-05T10:29:00.080729,message_published_test_topic,1.71,5,5
+2025-11-05T10:29:34.676097,message_published_test_topic,360.49,1,1
+2025-11-05T10:29:34.678126,message_published_test_topic,416.41,2,2
+2025-11-05T10:29:34.680136,message_published_test_topic,440.36,3,3
+2025-11-05T10:29:34.681649,message_published_test_topic,480.45,4,4
+2025-11-05T10:29:34.683662,message_published_test_topic,483.63,5,5
+2025-11-05T10:30:25.816259,message_published_test,0.00,1,1
+2025-11-05T10:30:25.852233,message_published_deployments,0.37,1,1
+2025-11-05T10:31:09.239765,message_published_scaling,0.53,1,1
+2025-11-05T10:31:09.259045,message_published_deployments,1.05,1,3
+2025-11-05T10:31:09.262261,message_published_deployments,1.57,2,3
+2025-11-05T10:31:09.264654,message_published_deployments,2.08,3,4
+2025-11-05T10:31:14.997005,message_published_deployments,0.65,4,5
+2025-11-05T10:31:15.218453,message_published_deployments,0.76,5,6
+2025-11-05T10:31:16.385042,message_published_deployments,0.77,6,7
+2025-11-05T10:31:20.830656,message_published_deployments,0.59,7,8
+2025-11-05T10:31:22.127885,message_published_deployments,0.61,8,9
+2025-11-05T10:31:23.584176,message_published_deployments,0.62,9,10
+2025-11-05T10:31:26.374443,message_published_deployments,0.58,10,11
+2025-11-05T10:31:27.258286,message_published_deployments,0.60,11,12
+2025-11-05T10:31:29.733654,message_published_deployments,0.58,12,13
+2025-11-05T10:31:31.468933,message_published_deployments,0.58,13,14
+2025-11-05T10:31:33.477993,message_published_deployments,0.57,14,15
+2025-11-05T10:31:34.682787,message_published_deployments,0.59,15,16
+2025-11-05T10:31:36.630849,message_published_deployments,0.58,16,17
+2025-11-05T10:31:38.975109,message_published_deployments,0.57,17,18
+2025-11-05T10:31:39.561083,message_published_deployments,0.59,18,19
+2025-11-05T10:31:41.254061,message_published_deployments,0.59,19,20
+2025-11-05T10:31:44.743626,message_published_deployments,0.56,20,21
+2025-11-05T10:31:45.004538,message_published_deployments,0.58,21,22
+2025-11-05T10:31:46.137012,message_published_deployments,0.59,22,23
+2025-11-05T10:31:48.212599,message_published_deployments,0.59,23,24
+2025-11-05T10:31:50.507145,message_published_deployments,0.58,24,25
+2025-11-05T10:31:50.616781,message_published_deployments,0.60,25,26
+2025-11-05T10:31:54.410731,message_published_deployments,0.57,26,27
+2025-11-05T10:31:56.469119,message_published_deployments,0.57,27,28
+2025-11-05T10:31:57.847726,message_published_deployments,0.57,28,29
+2025-11-05T10:31:59.615294,message_published_deployments,0.57,29,30
+2025-11-05T10:32:00.217541,message_published_deployments,0.59,30,31
+2025-11-05T10:32:04.468973,message_published_deployments,0.56,31,32
+2025-11-05T10:32:04.569048,message_published_deployments,0.58,32,33
+2025-11-05T10:32:07.590095,message_published_deployments,0.56,33,34
+2025-11-05T10:32:07.721301,message_published_deployments,0.58,34,35
+2025-11-05T10:32:09.324441,message_published_scaling,0.58,2,36
+2025-11-05T17:06:16.814120,message_published_test_topic,1002.22,1,1
+2025-11-05T17:06:16.817123,message_published_test_topic,0.00,1,1
+2025-11-05T17:06:16.820121,message_published_test_topic,999.12,1,1
+2025-11-05T17:19:46.323767,message_published_test_topic,0.00,1,1
+2025-11-05T17:19:46.327293,message_published_test_topic,0.00,1,1
+2025-11-05T17:19:46.330374,message_published_test_topic,324.61,1,1
+2025-11-05T17:21:14.284493,message_published_test,499.02,1,1
+2025-11-05T17:21:14.316689,message_published_deployments,0.13,1,1
+2025-11-12 12:43:46,publish,deployment_event,0.00,85
+2025-11-12 12:43:47,publish,issue_detected,0.00,75
+2025-11-12 12:43:47,publish,system_status,0.00,44
+2025-11-12 12:45:52,publish,deployment_event,0.00,84
+2025-11-12 12:45:53,publish,issue_detected,0.00,75
+2025-11-12 12:45:53,publish,system_status,0.00,44
+2025-11-12 12:47:12,publish,deployment_event,0.81,84
+2025-11-12 12:47:12,subscribe,deployment_event,1.09,84
+2025-11-12 12:47:12,publish,issue_detected,0.00,75
+2025-11-12 12:47:12,publish,healing_action,0.00,55
+2025-11-12 12:47:12,subscribe,issue_detected,0.00,75
+2025-11-12 12:47:13,subscribe,healing_action,0.00,55
+2025-11-12 12:47:13,publish,system_status,0.00,44
+2025-11-12 12:57:43,publish,deployment_event,3.30,85
+2025-11-12 12:57:43,subscribe,deployment_event,4.33,85
+2025-11-12 12:57:44,publish,issue_detected,0.00,75
+2025-11-12 12:57:44,publish,healing_action,0.00,55
+2025-11-12 12:57:44,subscribe,issue_detected,4.00,75
+2025-11-12 12:57:44,subscribe,healing_action,81.83,55
+2025-11-12 12:57:44,publish,system_status,0.00,44
+2025-11-21 10:01:16,publish,system_failure,0.00,178
+2025-11-21 10:01:37,publish,network_failure,0.00,188
+2025-11-21 10:01:52,publish,agent_failure,0.00,202
+2025-11-21 10:02:05,publish,deployment_failure,0.00,209
+2025-11-21 10:58:10,publish,health_check,0.00,21
+2025-11-21 11:00:14,publish,deploy.success,0.00,187
+2025-11-21 11:00:14,subscribe,deploy.success,22.22,187
+2025-11-21 11:00:14,subscribe,deploy.success,123.67,187
+2025-11-27 10:10:56,publish,system.up,0.00,114
+2025-11-27 10:11:12,publish,deploy.success,0.00,210
+2025-11-27 10:11:12,subscribe,deploy.success,52.20,210
+2025-11-27 10:11:13,subscribe,deploy.success,605.63,210
+2025-11-27 10:11:56,publish,system.up,0.00,114
+2025-11-27 10:12:12,publish,deploy.success,0.00,212
+2025-11-27 10:12:12,subscribe,deploy.success,72.64,212
+2025-11-27 10:12:13,subscribe,deploy.success,1105.65,212
+2025-11-27 10:12:53,publish,system.up,0.00,114
+2025-11-27 10:13:08,publish,deploy.success,1.00,211
+2025-11-27 10:13:08,subscribe,deploy.success,16.13,211
+2025-11-27 10:13:08,subscribe,deploy.success,289.91,211

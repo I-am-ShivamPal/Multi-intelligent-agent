@@ -1,0 +1,4 @@
+timestamp,app_name,healthy,workers,environment
+2025-11-29T13:48:50.680858,sample-frontend,True,1,dev
+2025-11-29T13:48:52.726275,sample-frontend,True,3,dev
+2025-11-29T13:48:54.781448,sample-frontend,False,0,dev

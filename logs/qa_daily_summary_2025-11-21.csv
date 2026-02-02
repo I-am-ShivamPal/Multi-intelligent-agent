@@ -1,0 +1,2 @@
+date,uptime_percentage,avg_recovery_time_min,error_frequency_per_hour,fix_success_percentage,total_issues,total_heals,performance_events,system_status
+2025-11-21,94.44444444444444,2.5,0.3125,70.0,5,10,81,DEGRADED

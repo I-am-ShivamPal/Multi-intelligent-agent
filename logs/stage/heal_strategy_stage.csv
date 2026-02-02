@@ -1,0 +1,5 @@
+,retry_deployment,restore_previous_version,adjust_thresholds
+deployment_failure,0.0,0.0,0.0
+latency_issue,0.0,0.0,0.0
+anomaly_score,0.0,0.0,0.0
+anomaly_health,0.0,0.0,0.0

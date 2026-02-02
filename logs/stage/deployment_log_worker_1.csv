@@ -1,0 +1,15 @@
+timestamp,dataset_changed,status,response_time_ms,action_type,environment,worker_id
+2025-11-27T12:35:31.985276,dataset/student_scores.csv,success,20109.43,deploy,stage,1
+2025-11-27T12:37:01.801608,dataset/student_scores.csv,success,15039.58,deploy,stage,1
+2025-11-27T12:40:54.577138,dataset/student_scores.csv,success,15037.97,deploy,stage,1
+2025-11-27T12:47:21.616598,dataset/student_scores.csv,success,15329.32,deploy,stage,1
+2025-11-27T12:52:00.568252,dataset/student_scores.csv,success,20115.76,deploy,stage,1
+2025-11-27T12:53:17.360857,dataset/student_scores.csv,success,20039.02,deploy,stage,1
+2025-11-29T13:30:57.359066,,success,504.64,deploy,stage,1,sample-frontend,sample-frontend-stage-1764403229
+2025-11-29T13:42:51.523959,,success,508.77,deploy,stage,1,sample-backend,sample-backend-stage-1764403958
+2025-12-02T10:14:28.529497,,success,502.46,deploy,stage,1,sample-backend,sample-backend-stage-1764650665
+2025-12-02T10:14:29.167040,,success,510.55,deploy,stage,1,sample-frontend,sample-frontend-stage-1764650668
+2025-12-02T10:15:26.348164,,success,506.95,deploy,stage,1,sample-backend,sample-backend-stage-1764650722
+2025-12-02T10:15:27.255035,,success,514.39,deploy,stage,1,sample-frontend,sample-frontend-stage-1764650726
+2025-12-02T10:16:51.623961,,success,511.88,deploy,stage,1,sample-backend,sample-backend-stage-1764650808
+2025-12-02T10:16:52.243875,,success,507.35,deploy,stage,1,sample-frontend,sample-frontend-stage-1764650811

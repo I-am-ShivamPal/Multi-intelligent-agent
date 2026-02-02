@@ -1,0 +1,6 @@
+timestamp,status,details
+2024-01-01 00:00:00,success,Deploy v1.0
+2024-01-01 01:00:00,success,Deploy v1.1
+2024-01-01 02:00:00,failure,Deploy v1.2 failed
+2024-01-01 03:00:00,success,Deploy v1.3
+2024-01-01 04:00:00,success,Deploy v1.4

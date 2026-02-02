@@ -1,0 +1,2 @@
+timestamp,env,event_type,status,response_time,dataset
+2026-01-23T15:49:09.006547,prod,scale,success,80,scale_dataset.csv

@@ -1,0 +1,46 @@
+[
+  {
+    "context_id": "ctx_test_001",
+    "timestamp": "2025-01-01T10:00:00",
+    "event_type": "external.alert",
+    "payload": {
+      "message": "Test from MCP",
+      "mcp_context_id": "ctx_test_001"
+    },
+    "source": "mcp_agent",
+    "processed": true
+  },
+  {
+    "context_id": "ctx_test_001",
+    "timestamp": "2025-01-01T10:00:00",
+    "event_type": "external.alert",
+    "payload": {
+      "message": "Test from MCP",
+      "mcp_context_id": "ctx_test_001"
+    },
+    "source": "mcp_agent",
+    "processed": true
+  },
+  {
+    "context_id": "ctx_test_001",
+    "timestamp": "2025-01-01T10:00:00",
+    "event_type": "external.alert",
+    "payload": {
+      "message": "Test from MCP",
+      "mcp_context_id": "ctx_test_001"
+    },
+    "source": "mcp_agent",
+    "processed": true
+  },
+  {
+    "context_id": "ctx_test_001",
+    "timestamp": "2025-01-01T10:00:00",
+    "event_type": "external.alert",
+    "payload": {
+      "message": "Test from MCP",
+      "mcp_context_id": "ctx_test_001"
+    },
+    "source": "mcp_agent",
+    "processed": true
+  }
+]

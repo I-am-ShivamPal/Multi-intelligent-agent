@@ -1,0 +1,195 @@
+[
+  {
+    "id": "msg_1762318143340",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "issue.detected",
+      "data": {
+        "failure_type": "deployment_failure",
+        "reason": "Last deployment attempt failed.",
+        "dataset": "dataset/student_scores.csv"
+      },
+      "bus_timestamp": "2025-11-05T10:19:03.291041"
+    },
+    "timestamp": 1762318143.3408837,
+    "iso_timestamp": "2025-11-05T10:19:03.340883",
+    "processed": false
+  },
+  {
+    "id": "msg_1762318158899",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.failure",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15434.621572494507,
+        "action_type": "deploy"
+      },
+      "bus_timestamp": "2025-11-05T10:19:18.782761"
+    },
+    "timestamp": 1762318158.8995025,
+    "iso_timestamp": "2025-11-05T10:19:18.899502",
+    "processed": false
+  },
+  {
+    "id": "msg_1762343424593",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 16723.5267162323,
+        "action_type": "deploy"
+      },
+      "bus_timestamp": "2025-11-05T17:20:23.475377"
+    },
+    "timestamp": 1762343424.5935023,
+    "iso_timestamp": "2025-11-05T17:20:24.593502",
+    "processed": false
+  },
+  {
+    "id": "msg_1763703014761",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15059.28349494934,
+        "action_type": "deploy"
+      },
+      "bus_timestamp": "2025-11-21T11:00:14.651476"
+    },
+    "timestamp": 1763703014.7615693,
+    "iso_timestamp": "2025-11-21T11:00:14.761569",
+    "processed": false
+  },
+  {
+    "id": "msg_1763703014870",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15059.28349494934,
+        "action_type": "deploy"
+      },
+      "bus_timestamp": "2025-11-21T11:00:14.651476"
+    },
+    "timestamp": 1763703014.870214,
+    "iso_timestamp": "2025-11-21T11:00:14.870214",
+    "processed": false
+  },
+  {
+    "id": "msg_1764218472790",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15645.023584365845,
+        "action_type": "deploy",
+        "environment": "dev"
+      },
+      "bus_timestamp": "2025-11-27T10:11:12.646304"
+    },
+    "timestamp": 1764218472.7902021,
+    "iso_timestamp": "2025-11-27T10:11:12.790202",
+    "processed": false
+  },
+  {
+    "id": "msg_1764218473638",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15645.023584365845,
+        "action_type": "deploy",
+        "environment": "dev"
+      },
+      "bus_timestamp": "2025-11-27T10:11:12.646304"
+    },
+    "timestamp": 1764218473.638689,
+    "iso_timestamp": "2025-11-27T10:11:13.638688",
+    "processed": false
+  },
+  {
+    "id": "msg_1764218532818",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15143.441677093506,
+        "action_type": "deploy",
+        "environment": "stage"
+      },
+      "bus_timestamp": "2025-11-27T10:12:12.626498"
+    },
+    "timestamp": 1764218532.8182693,
+    "iso_timestamp": "2025-11-27T10:12:12.818269",
+    "processed": false
+  },
+  {
+    "id": "msg_1764218533968",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15143.441677093506,
+        "action_type": "deploy",
+        "environment": "stage"
+      },
+      "bus_timestamp": "2025-11-27T10:12:12.626498"
+    },
+    "timestamp": 1764218533.9682486,
+    "iso_timestamp": "2025-11-27T10:12:13.968248",
+    "processed": false
+  },
+  {
+    "id": "msg_1764218588528",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15038.811206817627,
+        "action_type": "deploy",
+        "environment": "prod"
+      },
+      "bus_timestamp": "2025-11-27T10:13:08.380619"
+    },
+    "timestamp": 1764218588.528067,
+    "iso_timestamp": "2025-11-27T10:13:08.528067",
+    "processed": false
+  },
+  {
+    "id": "msg_1764218588803",
+    "sender": "sovereign_bus",
+    "receiver": "mcp_agents",
+    "content": {
+      "event_type": "deploy.success",
+      "data": {
+        "dataset": "dataset/student_scores.csv",
+        "response_time": 15038.811206817627,
+        "action_type": "deploy",
+        "environment": "prod"
+      },
+      "bus_timestamp": "2025-11-27T10:13:08.380619"
+    },
+    "timestamp": 1764218588.8035417,
+    "iso_timestamp": "2025-11-27T10:13:08.803541",
+    "processed": false
+  }
+]

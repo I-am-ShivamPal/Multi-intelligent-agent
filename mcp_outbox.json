@@ -1,0 +1,948 @@
+[
+  {
+    "context_id": "ctx_20251029_105721",
+    "timestamp": "2025-10-29T10:57:21.033824",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "test.csv",
+      "response_time": 1500
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_111941",
+    "timestamp": "2025-10-29T11:19:41.791705",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15049.45683479309,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_111941",
+    "timestamp": "2025-10-29T11:19:41.832113",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_114946",
+    "timestamp": "2025-10-29T11:49:46.035195",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "reward": -1,
+      "new_q": 0.5004062
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_115753",
+    "timestamp": "2025-10-29T11:57:53.963660",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15728.180646896362,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_115754",
+    "timestamp": "2025-10-29T11:57:54.105316",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_115754",
+    "timestamp": "2025-10-29T11:57:54.269937",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 0.65036558
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_123110_188",
+    "timestamp": "2025-10-29T12:31:10.911955",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 16992.86699295044,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_123111_422",
+    "timestamp": "2025-10-29T12:31:11.052459",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_123111_857",
+    "timestamp": "2025-10-29T12:31:11.131798",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 0.785329022
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_140719_963",
+    "timestamp": "2025-10-29T14:07:19.620652",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "test.csv",
+      "response_time": 1500
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_141330_303",
+    "timestamp": "2025-10-29T14:13:30.561907",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15028.67078781128,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_141330_495",
+    "timestamp": "2025-10-29T14:13:30.649747",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_145705_754",
+    "timestamp": "2025-10-29T14:57:05.281365",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_145720_250",
+    "timestamp": "2025-10-29T14:57:20.320567",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15029.280185699463,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_152051_928",
+    "timestamp": "2025-10-29T15:20:51.489813",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_152106_361",
+    "timestamp": "2025-10-29T15:21:06.566280",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15030.427932739258,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_152428_104",
+    "timestamp": "2025-10-29T15:24:28.195943",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_152443_606",
+    "timestamp": "2025-10-29T15:24:43.261033",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15013.776302337646,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_152513_240",
+    "timestamp": "2025-10-29T15:25:13.570885",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_152528_796",
+    "timestamp": "2025-10-29T15:25:28.676644",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15029.663801193237,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_153445_199",
+    "timestamp": "2025-10-29T15:34:45.915272",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_153501_441",
+    "timestamp": "2025-10-29T15:35:01.026533",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15028.623342514038,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_154353_546",
+    "timestamp": "2025-10-29T15:43:53.388236",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_154408_327",
+    "timestamp": "2025-10-29T15:44:08.521898",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15033.949851989746,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155023_662",
+    "timestamp": "2025-10-29T15:50:23.418026",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15025.595903396606,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155023_411",
+    "timestamp": "2025-10-29T15:50:23.818444",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155101_897",
+    "timestamp": "2025-10-29T15:51:01.496712",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155116_877",
+    "timestamp": "2025-10-29T15:51:16.593055",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15041.041135787964,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155212_955",
+    "timestamp": "2025-10-29T15:52:12.111999",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "anomaly_health",
+      "action": "retry_deployment",
+      "reward": -1,
+      "new_q": -0.1
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155341_896",
+    "timestamp": "2025-10-29T15:53:41.804298",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155356_632",
+    "timestamp": "2025-10-29T15:53:56.910508",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15030.007362365723,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155410_996",
+    "timestamp": "2025-10-29T15:54:10.920689",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155426_593",
+    "timestamp": "2025-10-29T15:54:26.007148",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15022.507905960083,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155444_742",
+    "timestamp": "2025-10-29T15:54:44.946581",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15015.808820724487,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155445_685",
+    "timestamp": "2025-10-29T15:54:45.666383",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155502_380",
+    "timestamp": "2025-10-29T15:55:02.035290",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155522_157",
+    "timestamp": "2025-10-29T15:55:22.225911",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 20000,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155535_844",
+    "timestamp": "2025-10-29T15:55:35.370742",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155536_261",
+    "timestamp": "2025-10-29T15:55:36.918520",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 2000,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155606_343",
+    "timestamp": "2025-10-29T15:56:06.836197",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155621_649",
+    "timestamp": "2025-10-29T15:56:21.927088",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15044.642925262451,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155637_244",
+    "timestamp": "2025-10-29T15:56:37.203966",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "deployment_failure",
+      "action": "retry_deployment",
+      "reward": 0,
+      "new_q": 0.0
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155640_548",
+    "timestamp": "2025-10-29T15:56:40.099680",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155655_225",
+    "timestamp": "2025-10-29T15:56:55.228141",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15028.648614883423,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155710_380",
+    "timestamp": "2025-10-29T15:57:10.428953",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "anomaly_health",
+      "action": "restore_previous_version",
+      "reward": 0,
+      "new_q": 0.0
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155713_863",
+    "timestamp": "2025-10-29T15:57:13.231304",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155733_593",
+    "timestamp": "2025-10-29T15:57:33.279560",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 20000,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155748_932",
+    "timestamp": "2025-10-29T15:57:48.420293",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "deployment_failure",
+      "action": "retry_deployment",
+      "reward": 0,
+      "new_q": 0.0
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155750_378",
+    "timestamp": "2025-10-29T15:57:50.887250",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155752_605",
+    "timestamp": "2025-10-29T15:57:52.448715",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 2000,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155807_153",
+    "timestamp": "2025-10-29T15:58:07.581256",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "anomaly_health",
+      "action": "restore_previous_version",
+      "reward": 0,
+      "new_q": 0.0
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155817_447",
+    "timestamp": "2025-10-29T15:58:17.235299",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155828_795",
+    "timestamp": "2025-10-29T15:58:28.110196",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "test.csv",
+      "response_time": 1500
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155832_554",
+    "timestamp": "2025-10-29T15:58:32.402005",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15047.421216964722,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155832_397",
+    "timestamp": "2025-10-29T15:58:32.548029",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "deployment_failure",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 0.9067961198
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155837_433",
+    "timestamp": "2025-10-29T15:58:37.605122",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155852_190",
+    "timestamp": "2025-10-29T15:58:52.662470",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15029.019594192505,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155852_386",
+    "timestamp": "2025-10-29T15:58:52.808732",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 1.13906558
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155914_465",
+    "timestamp": "2025-10-29T15:59:14.656983",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 20000,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155914_996",
+    "timestamp": "2025-10-29T15:59:14.790235",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "latency_issue",
+      "reason": "High latency detected: 20000.00 ms.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155914_617",
+    "timestamp": "2025-10-29T15:59:14.892274",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "latency_issue",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 0.542
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155917_887",
+    "timestamp": "2025-10-29T15:59:17.140626",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155918_636",
+    "timestamp": "2025-10-29T15:59:18.745625",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 2000,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_155918_305",
+    "timestamp": "2025-10-29T15:59:18.869205",
+    "event_type": "rl.learned",
+    "payload": {
+      "state": "anomaly_health",
+      "action": "adjust_thresholds",
+      "reward": 2,
+      "new_q": 1.225159022
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160310_399",
+    "timestamp": "2025-10-29T16:03:10.597854",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15026.128768920898,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160310_657",
+    "timestamp": "2025-10-29T16:03:10.670658",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160357_510",
+    "timestamp": "2025-10-29T16:03:57.544607",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160412_262",
+    "timestamp": "2025-10-29T16:04:12.613142",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15028.507947921753,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160459_651",
+    "timestamp": "2025-10-29T16:04:59.383859",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160514_305",
+    "timestamp": "2025-10-29T16:05:14.452614",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15030.263900756836,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160555_309",
+    "timestamp": "2025-10-29T16:05:55.975737",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "anomaly_health",
+      "reason": "High heart rate detected (150).",
+      "dataset": "dataset/patient_health.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160611_290",
+    "timestamp": "2025-10-29T16:06:11.020487",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/patient_health.csv",
+      "response_time": 15025.958061218262,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160656_249",
+    "timestamp": "2025-10-29T16:06:56.598508",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_160711_331",
+    "timestamp": "2025-10-29T16:07:11.648616",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15023.04482460022,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_161645_346",
+    "timestamp": "2025-10-29T16:16:45.416227",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251029_161700_611",
+    "timestamp": "2025-10-29T16:17:00.648684",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15201.730489730835,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251105_101903_161",
+    "timestamp": "2025-11-05T10:19:03.291041",
+    "event_type": "issue.detected",
+    "payload": {
+      "failure_type": "deployment_failure",
+      "reason": "Last deployment attempt failed.",
+      "dataset": "dataset/student_scores.csv"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251105_101918_911",
+    "timestamp": "2025-11-05T10:19:18.782761",
+    "event_type": "deploy.failure",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15434.621572494507,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251105_172024_208",
+    "timestamp": "2025-11-05T17:20:23.475377",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 16723.5267162323,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251112_122649_374",
+    "timestamp": "2025-11-12T12:26:49.530379",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "test.csv",
+      "response_time": 1500
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251121_110014_153",
+    "timestamp": "2025-11-21T11:00:14.651476",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15059.28349494934,
+      "action_type": "deploy"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251127_101112_505",
+    "timestamp": "2025-11-27T10:11:12.646304",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15645.023584365845,
+      "action_type": "deploy",
+      "environment": "dev"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251127_101212_703",
+    "timestamp": "2025-11-27T10:12:12.626498",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15143.441677093506,
+      "action_type": "deploy",
+      "environment": "stage"
+    },
+    "source": "sovereign_bus"
+  },
+  {
+    "context_id": "ctx_20251127_101308_424",
+    "timestamp": "2025-11-27T10:13:08.380619",
+    "event_type": "deploy.success",
+    "payload": {
+      "dataset": "dataset/student_scores.csv",
+      "response_time": 15038.811206817627,
+      "action_type": "deploy",
+      "environment": "prod"
+    },
+    "source": "sovereign_bus"
+  }
+]

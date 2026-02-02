@@ -1,0 +1,2 @@
+timestamp,cpu_percent,memory_percent,disk_percent,docker_status,containers_running,containers_total,redis_status,system_health,environment
+2025-11-27T10:21:59.279475,25.5,68.2,45.1,healthy,4,4,healthy,85,dev

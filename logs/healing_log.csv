@@ -1,0 +1,4 @@
+timestamp,strategy,status
+2024-01-01 02:00:00,retry,success
+2024-01-01 04:00:00,restore,failure
+2024-01-01 06:00:00,adjust,success

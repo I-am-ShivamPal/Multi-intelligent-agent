@@ -1,0 +1,10 @@
+timestamp,env,event_type,status,response_time,dataset
+2026-01-24T16:00:03.581412,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-01-24T16:02:26.515824,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-01-24T16:07:59.455267,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-01-24T16:12:20.023355,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-01-31T15:35:41.119245,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-01-31T15:36:26.736234,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-01-31T16:10:17.824114,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-02-01T14:56:34.662116,stage,critical_system_failure,failure,0,critical_failure_dataset.csv
+2026-02-01T16:34:04.778283,stage,critical_system_failure,failure,0,critical_failure_dataset.csv

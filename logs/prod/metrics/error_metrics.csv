@@ -1,0 +1,7 @@
+timestamp,service_name,error_type,error_count,error_rate_percent,severity,environment
+2026-01-23T15:49:11.021777,crash_prod,failure,1,100.0,medium,prod
+2026-01-23T15:49:12.027312,overload_prod,warning,1,100.0,medium,prod
+2026-01-24T14:02:04.506472,crash_prod,failure,1,100.0,medium,prod
+2026-01-24T14:56:15.490768,crash_prod,failure,1,100.0,medium,prod
+2026-01-24T15:19:36.665049,crash_prod,failure,1,100.0,medium,prod
+2026-01-24T15:25:33.716683,crash_prod,failure,1,100.0,medium,prod
