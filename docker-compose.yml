@@ -90,6 +90,7 @@ services:
       - WORKER_ID=1
       - REDIS_HOST=redis
       - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
     volumes:
       - ./logs:/app/logs
       - ./dataset:/app/dataset
@@ -107,6 +108,7 @@ services:
       - WORKER_ID=2
       - REDIS_HOST=redis
       - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
     volumes:
       - ./logs:/app/logs
       - ./dataset:/app/dataset
@@ -124,6 +126,7 @@ services:
       - WORKER_ID=3
       - REDIS_HOST=redis
       - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
     volumes:
       - ./logs:/app/logs
       - ./dataset:/app/dataset
