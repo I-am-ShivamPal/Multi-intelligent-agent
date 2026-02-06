@@ -1,74 +1,93 @@
-# Render Python Version Fix - FINAL SOLUTION
+# Render Deployment - Final Status
 
-## The Problem
-Render kept using Python 3.13.4 (default) despite multiple attempts to specify 3.10.
+##  Current Issues & Solutions
 
-## Failed Attempts
-1. ❌ `runtime.txt` with extra line → Ignored due to format error
-2. ❌ `runtime.txt` fixed → Conflicted with render.yaml
-3. ❌ `pythonVersion: "3.10.13"` in render.yaml → Invalid patch version
-4. ❌ `pythonVersion: 3.10` in render.yaml → Still used 3.13.4 default
+### ✅ Issue #1: Python Version - SOLVED
+- **Status**: Working correctly
+- **Evidence**: Logs show `Using Python version 3.10` (not 3.13)
+- **Solution**: `.python-version` file with `3.10.13`
 
-## ✅ FINAL SOLUTION: `.python-version` File
+### 🔄 Issue #2: Flask/WSGI Configuration - IN PROGRESS
+- **Problem**: Render deploying with CACHED old configuration
+- **Evidence**: Logs show `Running 'gunicorn api.agent_api:app -k uvicorn.workers.UvicornWorker'` (old command)
+- **Expected**: `Running 'gunicorn api.agent_api:app --bind 0.0.0.0:$PORT --workers 2'` (new command)
 
-According to [Render's official docs](https://render.com/docs/python-version), the **most reliable** way is:
+## Root Cause: Render Configuration Caching
 
-### Created `.python-version`
-```
-3.10.13
-```
+Render sometimes caches the `render.yaml` configuration from previous deploys, even when the file changes in git.
 
-This file is **automatically detected** by Render and pyenv.
+## Solution Applied
 
-### Cleaned Up `render.yaml`
-Removed conflicting `pythonVersion` and `runtime` fields:
+### Commit: `c70c8a8`
+Added comment to `render.yaml` to force Render to re-read configuration:
 
 ```yaml
 services:
   - type: web
     name: multi-intelligent-agent-api
-    env: python                          # ✅ Just env: python
+    env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn api.agent_api:app -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
-    envVars:
-      - key: DEMO_MODE
-        value: "true"
-      - key: DEMO_FREEZE_MODE
-        value: "true"
+    # Flask WSGI app - use sync workers (NOT uvicorn/ASGI)  ← NEW
+    startCommand: gunicorn api.agent_api:app --bind 0.0.0.0:$PORT --workers 2
 ```
 
-## Why This Works
+## What Will Change
 
-Render's Python version detection priority:
-1. **`.python-version`** ← ✅ **We're using this now**
-2. `runtime.txt`
-3. `pythonVersion` in render.yaml
-4. Default (3.13.4)
-
-By using `.python-version`, we bypass all conflicts and use Render's primary detection method.
-
-## Expected Build Output
-
-```
-==> Using Python version 3.10.13 (from .python-version)  ✅
-==> Running build command 'pip install -r requirements.txt'...
-    ✅ pandas-2.0.3 (compatible!)
-    ✅ numpy-1.24.3 (compatible!)
-    ✅ gunicorn-21.2.0
-==> Build succeeded ✅
+### Before (Current - WRONG):
+```bash
+gunicorn api.agent_api:app -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+# ❌ uvicorn workers = ASGI (incompatible with Flask)
+# Results in: TypeError: Flask.__call__() missing 1 required positional argument
 ```
 
-## Files in Final Solution
+### After (Expected - CORRECT):
+```bash
+gunicorn api.agent_api:app --bind 0.0.0.0:$PORT --workers 2
+# ✅ sync workers = WSGI (compatible with Flask)
+# Results in: Clean startup, no TypeError
+```
 
-| File | Content | Purpose |
-|------|---------|---------|
-| `.python-version` | `3.10.13` | Render's primary Python version detection |
-| `render.yaml` | No pythonVersion | Avoid conflicts |
-| `requirements.txt` | Includes gunicorn | Production server |
+## Verification Checklist
 
-## Deploy Status
-🚀 **Commit:** `850239c`  
-📦 **Pushed to:** `main`  
-⏳ **Render:** Auto-deploying now
+After next Render deploy, check logs for:
 
-Monitor build logs for: `Using Python version 3.10.13`
+- [ ] `Running 'gunicorn api.agent_api:app --bind 0.0.0.0:$PORT --workers 2'` (NOT uvicorn.workers)
+- [ ] `Application startup complete` (no TypeError)
+- [ ] Service responds at https://multi-intelligent-agent.onrender.com
+- [ ] No `Flask.__call__() missing 1 required positional argument` errors
+
+## Alternative: Manual Redeploy
+
+If Render still uses cached config, you can:
+
+1. Go to Render Dashboard
+2. Click "Manual Deploy" → "Clear build cache & deploy"
+3. This forces Render to re-read render.yaml from scratch
+
+## Timeline
+
+- **Commit pushed**: c70c8a8
+- **Expected deployment**: 2-3 minutes after push
+- **Monitor**: https://dashboard.render.com → Your service logs
+
+## Files Summary
+
+| File | Status | Content |
+|------|--------|---------|
+| `.python-version` | ✅ Working | `3.10.13` |
+| `render.yaml` | 🔄 Updated | WSGI workers (no uvicorn) |
+| `requirements.txt` | ✅ Complete | Includes gunicorn==21.2.0 |
+
+## Next Deploy Should Show
+
+```
+==> Using Python version 3.10.x ✅
+==> Build successful ✅
+==> Running 'gunicorn api.agent_api:app --bind 0.0.0.0:$PORT --workers 2' ✅
+[INFO] Starting gunicorn 21.2.0
+[INFO] Using worker: sync ✅ (NOT uvicorn.workers)
+[INFO] Application startup complete ✅
+==> Your service is live ✅
+```
+
+NO TypeError errors!
