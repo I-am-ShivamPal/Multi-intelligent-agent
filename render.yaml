@@ -27,6 +27,7 @@ services:
     name: multi-intelligent-agent-api
     env: python
     buildCommand: pip install -r requirements.txt
+    # Flask WSGI app - use sync workers (NOT uvicorn/ASGI)
     startCommand: gunicorn api.agent_api:app --bind 0.0.0.0:$PORT --workers 2
     envVars:
       - key: DEMO_MODE
